@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "B94TeDcRurrblMkyoa5Xvl7BGgkQdBr8Zg65MrWAA6xkHAZUu7neV6xcaOyjuo5JHbqNktEbuy0XEgwSkMU5Jw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ASUS\\source\\repos\\KHTHDV\\KTHDV-Front-end\\KTHDV-Front-end.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+  ],
+  "logs": []
+}

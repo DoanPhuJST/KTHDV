@@ -1,0 +1,6 @@
+@KHTHDV_HostAddress = http://localhost:5148
+
+GET {{KHTHDV_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

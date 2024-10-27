@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Danh sách hàng hoá";
+}
+<h1>@ViewData["Title"]</h1>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="//cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+<link rel="stylesheet" href="//cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css">
+
+<H1>Danh sách sinh viên</H1>
+<table id="tbl1">
+    <thead>
+        <tr>
+            <th>Mã</th>
+            <th>Tên hàng</th>
+            <th>Đơn vị</th>
+            <th>Giá nhập</th>
+            <th>Giá bán</th>
+        </tr>
+
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+<script>
+    $(document).ready(function () {
+        var url = "https://localhost:7153/Hanghoa/List";
+        $.post(url, {}, function (data) {
+            ds = data.data;
+            table_direct = new DataTable('#tbl1', {
+                data: ds,
+                columns: [
+                    { "data": "ma" },
+                    { "data": "ten" },
+                    { "data": "donvi" },
+                    { "data": "gianhap" },
+                    { "data": "giaban" }
+                ]
+            });
+        });
+     });
+</script>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "waT2IrmJdCeHrmlKvLw2jeOn+ZIYqIeBK8fFTj9PMjLiIuKgr+8++OACZOiowm3qkWpzeRy86wvM8MrNkpJZpw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ASUS\\source\\repos\\KHTHDV\\Front-end\\Front-end.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+  ],
+  "logs": []
+}

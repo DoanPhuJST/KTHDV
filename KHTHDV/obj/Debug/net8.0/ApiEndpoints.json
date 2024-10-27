@@ -1,0 +1,105 @@
+[
+  {
+    "ContainingType": "QLBH.Controllers.HanghoaController",
+    "Method": "Xoa1banghi",
+    "RelativePath": "Hanghoa/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLBH.Controllers.HanghoaController",
+    "Method": "ThemHanghoa",
+    "RelativePath": "Hanghoa/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ma",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ten",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "donvi",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "gianhap",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "giaban",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLBH.Controllers.HanghoaController",
+    "Method": "GetList",
+    "RelativePath": "Hanghoa/List",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLBH.Controllers.HanghoaController",
+    "Method": "CapnhatHanghoa",
+    "RelativePath": "Hanghoa/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ma",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ten",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "donvi",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "gianhap",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "giaban",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
